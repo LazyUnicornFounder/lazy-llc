@@ -53,13 +53,7 @@ const pricing = [
     name: "Business",
     price: "350 JOD",
     best: "Best for small businesses",
-    features: ["LLC registration", "Full multi-page website", "Payment gateway connected to your bank", "Social media setup"],
-  },
-  {
-    name: "Premium",
-    price: "750 JOD",
-    best: "Best for serious growth",
-    features: ["Everything in Business", "Arabic + English website", "SEO setup", "Marketing starter kit", "3 months support"],
+    features: ["LLC registration", "Full multi-page website", "Payment gateway connected to your bank"],
   },
 ];
 
