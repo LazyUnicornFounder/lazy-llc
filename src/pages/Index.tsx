@@ -1,4 +1,4 @@
-import { Building2, Globe, CreditCard, TrendingUp, Check } from "lucide-react";
+import { Building2, Globe, CreditCard, TrendingUp, Check, Linkedin } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import WaitlistForm from "@/components/WaitlistForm";
 
@@ -93,12 +93,21 @@ const Index = () => {
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <span className="font-serif text-xl font-medium tracking-tight text-foreground">LazyLLC</span>
-          <button
-            onClick={scrollToWaitlist}
-            className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
-          >
-            Join Waitlist
-          </button>
+          <div className="flex items-center gap-5">
+            <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
+            <a href="https://www.linkedin.com/in/saadsahawneh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Linkedin className="w-4 h-4" />
+            </a>
+            <a href="https://x.com/SoloUnicorn" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+            </a>
+            <button
+              onClick={scrollToWaitlist}
+              className="text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+            >
+              Join Waitlist
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -223,6 +232,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About */}
+      <section id="about" className="py-24 px-6">
+        <div className="max-w-3xl mx-auto text-center flex flex-col gap-4">
+          <h2 className="font-serif text-3xl font-medium text-foreground">About LazyLLC</h2>
+          <p className="text-muted-foreground leading-relaxed">
+            LazyLLC is part of{" "}
+            <a href="https://lazyfounderventures.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline underline-offset-4 transition-colors">
+              Lazy Founder Ventures
+            </a>
+            , building tools that make it effortless to start and grow a business in Jordan.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
@@ -231,7 +254,12 @@ const Index = () => {
             <span className="text-sm text-muted-foreground">Amman, Jordan</span>
           </div>
           <div className="flex flex-col items-center md:items-end gap-1">
-            <span className="text-xs text-muted-foreground">Part of Lazy Sands</span>
+            <span className="text-xs text-muted-foreground">
+              Part of{" "}
+              <a href="https://lazyfounderventures.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground underline underline-offset-2 transition-colors">
+                Lazy Founder Ventures
+              </a>
+            </span>
             <span className="text-xs text-muted-foreground">© 2026 LazyLLC. All rights reserved.</span>
           </div>
         </div>
