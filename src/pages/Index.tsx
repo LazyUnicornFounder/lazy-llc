@@ -176,7 +176,7 @@ const Index = () => {
       </section>
 
       {/* Pricing */}
-      <section className="py-24 px-6 bg-dark-DEFAULT text-card">
+      <section id="pricing" className="py-24 px-6 bg-dark-DEFAULT text-card">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl font-medium text-center mb-12">Simple pricing. No surprises.</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
