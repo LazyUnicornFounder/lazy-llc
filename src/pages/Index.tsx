@@ -232,6 +232,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About */}
+      <section id="about" className="py-24 px-6">
+        <div className="max-w-3xl mx-auto text-center flex flex-col gap-4">
+          <h2 className="font-serif text-3xl font-medium text-foreground">About LazyLLC</h2>
+          <p className="text-muted-foreground leading-relaxed">
+            LazyLLC is part of{" "}
+            <a href="https://lazyfounderventures.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 underline underline-offset-4 transition-colors">
+              Lazy Founder Ventures
+            </a>
+            , building tools that make it effortless to start and grow a business in Jordan.
+          </p>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
@@ -240,7 +254,12 @@ const Index = () => {
             <span className="text-sm text-muted-foreground">Amman, Jordan</span>
           </div>
           <div className="flex flex-col items-center md:items-end gap-1">
-            <span className="text-xs text-muted-foreground">Part of Lazy Sands</span>
+            <span className="text-xs text-muted-foreground">
+              Part of{" "}
+              <a href="https://lazyfounderventures.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground underline underline-offset-2 transition-colors">
+                Lazy Founder Ventures
+              </a>
+            </span>
             <span className="text-xs text-muted-foreground">© 2026 LazyLLC. All rights reserved.</span>
           </div>
         </div>
