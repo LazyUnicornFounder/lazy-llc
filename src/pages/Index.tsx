@@ -45,19 +45,19 @@ const audiences = [
 const pricing = [
   {
     name: "Starter",
-    price: "250 JOD",
+    price: "150 JOD",
     best: "Best for freelancers & solo founders",
     features: ["LLC registration", "Basic one-page website", "Google Business setup"],
   },
   {
     name: "Business",
-    price: "500 JOD",
+    price: "350 JOD",
     best: "Best for small businesses",
     features: ["LLC registration", "Full multi-page website", "Payment gateway connected to your bank", "Social media setup"],
   },
   {
     name: "Premium",
-    price: "1,000 JOD",
+    price: "750 JOD",
     best: "Best for serious growth",
     features: ["Everything in Business", "Arabic + English website", "SEO setup", "Marketing starter kit", "3 months support"],
   },
