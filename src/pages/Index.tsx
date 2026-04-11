@@ -94,6 +94,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <span className="font-serif text-xl font-medium tracking-tight text-foreground">LazyLLC</span>
           <div className="flex items-center gap-5">
+            <a href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
             <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="https://www.linkedin.com/in/saadsahawneh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="w-4 h-4" />
