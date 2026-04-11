@@ -94,6 +94,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <span className="font-serif text-xl font-medium tracking-tight text-foreground">LazyLLC</span>
           <div className="flex items-center gap-5">
+            <a href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
             <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="https://www.linkedin.com/in/saadsahawneh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="w-4 h-4" />
@@ -175,7 +176,7 @@ const Index = () => {
       </section>
 
       {/* Pricing */}
-      <section className="py-24 px-6 bg-dark-DEFAULT text-card">
+      <section id="pricing" className="py-24 px-6 bg-dark-DEFAULT text-card">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl font-medium text-center mb-12">Simple pricing. No surprises.</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
