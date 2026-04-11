@@ -173,7 +173,7 @@ const Index = () => {
       <section id="pricing" className="py-24 px-6 bg-dark-DEFAULT text-card">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl font-medium text-center mb-12">Simple pricing. No surprises.</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {pricing.map((p) => (
               <div key={p.name} className="bg-[#1e1e1c] rounded-xl p-8 border border-[#2a2a28] flex flex-col">
                 <h3 className="font-serif text-xl font-medium mb-1">{p.name}</h3>
