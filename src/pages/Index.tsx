@@ -230,12 +230,6 @@ const Index = () => {
             <span className="font-serif text-lg font-medium text-foreground">LazyLLC</span>
             <span className="text-sm text-muted-foreground">Amman, Jordan</span>
           </div>
-          <div className="flex items-center gap-6">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Instagram</a>
-            <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">X</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">LinkedIn</a>
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">WhatsApp</a>
-          </div>
           <div className="flex flex-col items-center md:items-end gap-1">
             <span className="text-xs text-muted-foreground">Part of Lazy Sands</span>
             <span className="text-xs text-muted-foreground">© 2026 LazyLLC. All rights reserved.</span>
