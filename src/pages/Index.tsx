@@ -86,7 +86,7 @@ const Index = () => {
       {/* Nav */}
       <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="font-serif text-xl font-medium tracking-tight text-foreground">LazyLLC</span>
+          <span className="font-serif text-xl font-medium tracking-tight text-foreground flex items-center gap-2">LazyLLC <span className="text-[10px] font-sans font-semibold uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded">Beta</span></span>
           <div className="flex items-center gap-5">
             <a href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
             <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
