@@ -65,6 +65,7 @@ const Index = () => {
           <span className="font-serif text-xl font-medium tracking-tight text-foreground flex items-center gap-2">LazyLLC <span className="text-[10px] font-sans font-semibold uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded">Beta</span></span>
           <div className="flex items-center gap-5">
             <a href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+            <a href="#addons" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Add-ons</a>
             <a href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">About</a>
             <a href="https://www.linkedin.com/in/saadsahawneh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="w-4 h-4" />
@@ -184,7 +185,7 @@ const Index = () => {
       </section>
 
       {/* Add-Ons */}
-      <section className="py-24 px-6">
+      <section id="addons" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl font-medium text-center mb-4 text-foreground">Need more? Add it on.</h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
