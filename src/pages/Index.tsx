@@ -1,5 +1,4 @@
 import { Building2, Globe, CreditCard, TrendingUp, Check, Linkedin } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import WaitlistForm from "@/components/WaitlistForm";
 
 const scrollToWaitlist = () => {
