@@ -183,6 +183,42 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Add-Ons */}
+      <section className="py-24 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl font-medium text-center mb-4 text-foreground">Need more? Add it on.</h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
+            Beyond registration and setup, we can help you build and scale with the right tools.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-card rounded-xl p-8 border border-border flex flex-col gap-3">
+              <Globe className="w-8 h-8 text-primary" strokeWidth={1.5} />
+              <h3 className="font-serif text-xl font-medium text-foreground">Business Website, Shop & App</h3>
+              <p className="text-muted-foreground leading-relaxed flex-1">
+                We build your website, online shop, or web app using Lovable — a modern platform that lets us launch fast and iterate with you. Custom design, mobile-ready, Arabic + English.
+              </p>
+              <span className="text-sm text-primary font-medium mt-2">Custom quote</span>
+            </div>
+            <div className="bg-card rounded-xl p-8 border border-border flex flex-col gap-3">
+              <CreditCard className="w-8 h-8 text-primary" strokeWidth={1.5} />
+              <h3 className="font-serif text-xl font-medium text-foreground">Payments with Polar</h3>
+              <p className="text-muted-foreground leading-relaxed flex-1">
+                Accept payments globally with Polar — a merchant of record that handles taxes, compliance, and payouts so you don't have to. Subscriptions, one-time payments, and usage-based billing.
+              </p>
+              <span className="text-sm text-primary font-medium mt-2">Custom quote</span>
+            </div>
+            <div className="bg-card rounded-xl p-8 border border-border flex flex-col gap-3">
+              <Building2 className="w-8 h-8 text-primary" strokeWidth={1.5} />
+              <h3 className="font-serif text-xl font-medium text-foreground">Customer Emails with Resend</h3>
+              <p className="text-muted-foreground leading-relaxed flex-1">
+                Set up transactional emails with Resend — order confirmations, booking receipts, welcome emails, and more. Delivered reliably from your own domain.
+              </p>
+              <span className="text-sm text-primary font-medium mt-2">Custom quote</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About */}
       <section id="about" className="py-24 px-6">
         <div className="max-w-3xl mx-auto text-center flex flex-col gap-4">
