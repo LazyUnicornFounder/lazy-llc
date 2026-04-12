@@ -185,7 +185,7 @@ const Index = () => {
       </section>
 
       {/* Add-Ons */}
-      <section className="py-24 px-6">
+      <section id="addons" className="py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <h2 className="font-serif text-3xl font-medium text-center mb-4 text-foreground">Need more? Add it on.</h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
