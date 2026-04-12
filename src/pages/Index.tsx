@@ -1,5 +1,4 @@
 import { Building2, Globe, CreditCard, TrendingUp, Check, Linkedin } from "lucide-react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import WaitlistForm from "@/components/WaitlistForm";
 
 const scrollToWaitlist = () => {
@@ -54,29 +53,6 @@ const pricing = [
     price: "350 JOD",
     best: "Best for small businesses",
     features: ["LLC registration", "Full multi-page website", "Payment gateway connected to your bank"],
-  },
-];
-
-const faqs = [
-  {
-    q: "How long does LLC registration take in Jordan?",
-    a: "Typically 1–2 weeks. We handle all the paperwork with the Ministry of Industry & Trade, Companies Control Department, and municipality.",
-  },
-  {
-    q: "Which payment providers work with Jordanian banks?",
-    a: "We set up providers that connect directly to your Jordanian bank account — no need for a foreign account.",
-  },
-  {
-    q: "Do I need to be in Jordan?",
-    a: "No. We can handle everything remotely. Perfect for Jordanians living abroad who want to start a business back home.",
-  },
-  {
-    q: "Can I get an Arabic website?",
-    a: "Yes. Our Business and Premium plans include full Arabic + English bilingual websites.",
-  },
-  {
-    q: "What do I need to get started?",
-    a: "Just your national ID (or passport for non-Jordanians), your business idea, and 15 minutes to fill out our form.",
   },
 ];
 
@@ -195,26 +171,6 @@ const Index = () => {
           </p>
         </div>
       </section>
-
-      {/* FAQ */}
-      <section className="py-24 px-6">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="font-serif text-3xl font-medium text-center mb-12 text-foreground">Frequently asked questions</h2>
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, i) => (
-              <AccordionItem key={i} value={`faq-${i}`} className="border-border">
-                <AccordionTrigger className="text-left font-serif font-medium text-foreground hover:no-underline py-5">
-                  {faq.q}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed pb-5">
-                  {faq.a}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </div>
-      </section>
-
       {/* Final CTA */}
       <section className="py-24 px-6 bg-card">
         <div className="max-w-3xl mx-auto text-center flex flex-col gap-6">
