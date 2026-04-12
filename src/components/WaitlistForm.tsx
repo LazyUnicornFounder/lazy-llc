@@ -99,11 +99,6 @@ const WaitlistForm = ({ id }: WaitlistFormProps) => {
         </Button>
       </form>
       {errorMsg && <p className="text-sm text-destructive">{errorMsg}</p>}
-      {count !== null && count > 0 && (
-        <p className="text-sm text-muted-foreground">
-          Join {count} {count === 1 ? "other" : "others"} on the waitlist
-        </p>
-      )}
     </div>
   );
 };
