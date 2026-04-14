@@ -1,6 +1,7 @@
 import { Building2, Globe, CreditCard, TrendingUp, Check, Linkedin } from "lucide-react";
 import WaitlistForm from "@/components/WaitlistForm";
 import OpenSourceBanner from "@/components/OpenSourceBanner";
+import NewsletterSignup from "@/components/NewsletterSignup";
 
 const scrollToWaitlist = () => {
   document.getElementById("waitlist-hero")?.scrollIntoView({ behavior: "smooth" });
@@ -254,6 +255,7 @@ const Index = () => {
         </div>
       </footer>
           <OpenSourceBanner />
+          <NewsletterSignup />
     </div>
   );
 };
