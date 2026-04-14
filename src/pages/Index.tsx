@@ -168,7 +168,7 @@ const Index = () => {
             ))}
           </div>
           <p className="text-center text-[#87867f] mt-8 text-sm">
-            Final pricing depends on your specific needs. Join the waitlist for early-bird rates.
+            Final pricing depends on your specific needs. Prices do not include government registration fees. Join the waitlist for early-bird rates.
           </p>
         </div>
       </section>
