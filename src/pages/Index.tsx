@@ -2,6 +2,7 @@ import { Building2, Globe, CreditCard, TrendingUp, Check, Linkedin } from "lucid
 import WaitlistForm from "@/components/WaitlistForm";
 import OpenSourceBanner from "@/components/OpenSourceBanner";
 import NewsletterSignup from "@/components/NewsletterSignup";
+import PortfolioFooter from "@/components/PortfolioFooter";
 
 const scrollToWaitlist = () => {
   document.getElementById("waitlist-hero")?.scrollIntoView({ behavior: "smooth" });
@@ -256,6 +257,7 @@ const Index = () => {
       </footer>
           <OpenSourceBanner />
           <NewsletterSignup />
+          <PortfolioFooter />
     </div>
   );
 };
